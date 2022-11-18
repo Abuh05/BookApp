@@ -35,6 +35,8 @@ img{
     padding: 3px 6px;
     background-color: white;
     cursor: pointer;
+    border: 1px solid rgb(167, 171, 238);
+    color: rgb(100, 114, 242);
 }
 .btn{
     background-color: rgb(161, 228, 205);
@@ -48,5 +50,5 @@ img{
 }
 
 .form{
-    
+
 }
