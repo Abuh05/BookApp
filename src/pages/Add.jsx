@@ -15,6 +15,7 @@ const Add = () => {
     const navigate = useNavigate()
 
     const handleClick = async (e) =>{
+        e.preventDefault()
         try {
             await axios.post("http://localhost:8800/books", input)
             navigate("/")

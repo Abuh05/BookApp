@@ -50,5 +50,19 @@ img{
 }
 
 .form{
-
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.formbtn{
+    background-color: rgba(244, 128, 128, 0.877);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
